@@ -15,12 +15,17 @@ npm run dev
 
 Then open http://localhost:5173.
 
+**No install needed:** open [`release/wizard-chess.html`](release/wizard-chess.html) in a browser.
+The whole game, AI included, is in that one file and runs offline from the file system
+(the title fonts load from Google Fonts when online, with a plain fallback otherwise).
+
 | Command | What it does |
 |---------|--------------|
 | `npm run dev` | Dev server with hot reload |
 | `npm test` | Engine and AI test suite (Vitest) |
 | `npm run typecheck` | TypeScript check |
 | `npm run build` | Production build into `dist/` |
+| `npm run bundle` | Build, then pack everything into the single file `release/wizard-chess.html` |
 | `npm run arena` | AI-vs-AI matches to check each difficulty beats the one below |
 
 ## Controls

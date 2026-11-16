@@ -10,7 +10,8 @@
     "preview": "vite preview --outDir dist",
     "typecheck": "tsc --noEmit",
     "test": "vitest run",
-    "arena": "node tools/arena.ts"
+    "arena": "node tools/arena.ts",
+    "bundle": "npm run build && node tools/bundle.ts"
   },
   "engines": {
     "node": ">=20"
